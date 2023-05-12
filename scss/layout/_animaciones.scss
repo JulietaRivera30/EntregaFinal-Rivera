@@ -1,0 +1,37 @@
+.gradiente {
+    background: linear-gradient(45deg, rgb(255, 164, 229), rgba(255, 205, 238, 0.741));
+    height: 200px;
+    width: 200px;
+    color: #eee;
+    transition: 1s;
+    margin: 10%;
+    padding: 10px;
+    
+    .gradiente img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    &:hover {
+        // transform: rotateZ(360deg);
+        transform: scale(1.1, 1.1);
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+
+
+
+
